@@ -1,0 +1,31 @@
+.playgroung {
+    width: 500px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+.pixel {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    background: white;
+}
+
+.pixel.apple {
+    background-color: red;
+}
+
+.pixel.head {
+    background-color: green;
+}
+
+.pixel.body {
+    background-color: #00AD03;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
